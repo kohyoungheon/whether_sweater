@@ -188,6 +188,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -221,6 +222,36 @@
           1,
           1,
           null,
+          null
+        ]
+      },
+      "/Users/youngkoh/turing_work/3mod/whether_sweater/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/youngkoh/turing_work/3mod/whether_sweater/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/youngkoh/turing_work/3mod/whether_sweater/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
           null
         ]
       },
@@ -422,6 +453,57 @@
           null
         ]
       },
+      "/Users/youngkoh/turing_work/3mod/whether_sweater/spec/serializers/user_serializer_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/youngkoh/turing_work/3mod/whether_sweater/app/serializers/user_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/youngkoh/turing_work/3mod/whether_sweater/app/facades/mapquest_facade.rb": {
         "lines": [
           1,
@@ -519,6 +601,6 @@
         ]
       }
     },
-    "timestamp": 1686511809
+    "timestamp": 1686516537
   }
 }
