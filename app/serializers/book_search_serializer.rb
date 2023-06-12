@@ -5,7 +5,6 @@ class BookSearchSerializer
   end
 
   def serialize
-    require 'pry'; binding.pry
     {
       data: 
       {
@@ -16,8 +15,17 @@ class BookSearchSerializer
           destination: @books[:docs][0][:title],
           forecast:
           {
-            summary: @weather[:current][:weather][:condition][:text],
-          }
+            summary: @weather[:current][:condition][:text],
+            temperature: "#{@weather[:current][:temp_f]} F"
+          },
+          total_books_found: @books[:numFound],
+          books: @books[:docs].map do |book|
+            {
+              isbn: book[:isbn],
+              title: book[:title],
+              publisher: book[:publisher]
+            }
+          end
         }
       }
     }
