@@ -4,7 +4,7 @@ class LibraryFacade
   end
 
   def books
-    json = service.get_books(@params)
+    json = service.get_books(@params[:location],@params[:quantity])
   end
 
   private 
