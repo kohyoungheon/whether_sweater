@@ -277,6 +277,19 @@
           null
         ]
       },
+      "/Users/youngkoh/turing_work/3mod/whether_sweater/spec/requests/api/v0/users_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/youngkoh/turing_work/3mod/whether_sweater/spec/serializers/forecast_serializer_spec.rb": {
         "lines": [
           1,
@@ -504,6 +517,47 @@
           null
         ]
       },
+      "/Users/youngkoh/turing_work/3mod/whether_sweater/spec/services/mapquest_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/youngkoh/turing_work/3mod/whether_sweater/spec/services/weather_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/youngkoh/turing_work/3mod/whether_sweater/app/facades/mapquest_facade.rb": {
         "lines": [
           1,
@@ -530,16 +584,16 @@
           null,
           1,
           1,
-          2,
+          3,
           null,
           null,
           1,
-          2,
-          2,
+          3,
+          3,
           null,
           null,
           1,
-          2,
+          3,
           null,
           null
         ]
@@ -569,16 +623,16 @@
           null,
           1,
           1,
-          2,
+          3,
           null,
           null,
           1,
-          2,
-          2,
+          3,
+          3,
           null,
           null,
           1,
-          2,
+          3,
           null,
           null
         ]
@@ -601,6 +655,6 @@
         ]
       }
     },
-    "timestamp": 1686516537
+    "timestamp": 1686598906
   }
 }
