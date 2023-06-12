@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "Backend Service", vcr: { record: :new_episodes } do
+RSpec.feature "Library Service" do
   describe "get_books" do
     it "can get books" do
       response = LibraryService.new.get_books("denver,co",5)
