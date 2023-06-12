@@ -48,6 +48,7 @@ group :development, :test do
   gem 'jsonapi-serializer'
   gem 'faraday'
   gem 'figaro'
+  gem "bcrypt"
 end
 
 group :development do
