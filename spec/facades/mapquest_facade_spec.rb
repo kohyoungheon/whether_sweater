@@ -7,5 +7,8 @@ RSpec.feature "MapquestFacade" do
     expect(response).to be_a(Hash)
     expect(response).to have_key(:lat)
     expect(response).to have_key(:lng)
+
+    expect(response).to_not have_key(:results)
+    expect(response).to_not have_key(:data)
   end
 end

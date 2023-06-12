@@ -13,6 +13,21 @@ RSpec.describe "Forecast requests" do
       expect(json[:data]).to have_key(:attributes)
       expect(json[:data][:attributes]).to have_key(:current_weather)
       expect(json[:data][:attributes]).to have_key(:daily_weather)
+      expect(json[:data][:attributes]).to have_key(:hourly_weather)
+      
+      expect(json[:data][:attributes]).to_not have_key(:temp_c)
+      expect(json[:data][:attributes]).to_not have_key(:feelslike_c)
+      expect(json[:data][:attributes]).to_not have_key(:localtime)
+      expect(json[:data][:attributes]).to_not have_key(:wind_mph)
+      expect(json[:data][:attributes]).to_not have_key(:wind_kph)
+      expect(json[:data][:attributes]).to_not have_key(:wind_degree)
+      expect(json[:data][:attributes]).to_not have_key(:wind_dir)
+      expect(json[:data][:attributes]).to_not have_key(:pressure_mb)
+      expect(json[:data][:attributes]).to_not have_key(:pressure_in)
+      expect(json[:data][:attributes]).to_not have_key(:precip_mm)
+      expect(json[:data][:attributes]).to_not have_key(:precip_in)
+      expect(json[:data][:attributes]).to_not have_key(:humidity)
+      expect(json[:data][:attributes]).to_not have_key(:cloud)
     end
   end
 end

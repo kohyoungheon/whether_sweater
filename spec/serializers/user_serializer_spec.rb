@@ -18,5 +18,10 @@ RSpec.describe UserSerializer, type: :serializer do
     expect(serialized[:data][:attributes][:email]).to be_a(String)
     expect(serialized[:data][:attributes]).to have_key(:api_key)
     expect(serialized[:data][:attributes][:api_key]).to be_a(String)
+    
+
+    expect(serialized[:data][:attributes]).to_not have_key(:password)
+    expect(serialized[:data][:attributes]).to_not have_key(:password_confirmation)
+    expect(serialized[:data][:attributes]).to_not have_key(:password_digest)
   end
 end
