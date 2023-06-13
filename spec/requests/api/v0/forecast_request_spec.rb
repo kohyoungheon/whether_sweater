@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Forecast requests" do
+RSpec.describe "Forecast requests", :vcr do
   describe "index" do
     it "returns json" do
       get '/api/v0/forecast?location=denver,co'

@@ -8,6 +8,10 @@ class MapquestFacade
     json = json[:results][0][:locations][0][:latLng]
   end
 
+  def road_trip
+    json = service.get_road_trip(@params)
+  end
+
   private 
 
   def service

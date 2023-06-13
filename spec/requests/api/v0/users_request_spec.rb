@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "User requests" do
+RSpec.describe "User requests", :vcr do
   describe "create" do
     it "can create a user" do
       post "/api/v0/users", params: {email: "test@gmail.com", password: "password", password_confirmation: "password"}
