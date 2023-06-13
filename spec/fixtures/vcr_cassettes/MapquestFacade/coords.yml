@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/geocoding/v1/address?key=DONT_SHARE_MY_MAPQUEST_SECRET_KEY&location=%7B:location=%3E%22denver,CO%22%7D
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.6
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 13 Jun 2023 18:55:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '864'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-2628000:
+      - '15000'
+      X-Ratelimit-Remaining-2628000:
+      - '14649'
+      Ratelimit-Limit:
+      - '15000'
+      Ratelimit-Remaining:
+      - '14649'
+      Ratelimit-Reset:
+      - '493476'
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - daa894a0-0a1b-11ee-9396-cd313a9a1043
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Transaction-Count:
+      - all=1,geocoding=1
+      Etag:
+      - W/"360-5CWL+r+0/Fge0HEQzFo6V83zfLs"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyMiBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJ7OmxvY2F0aW9uPT5cImRlbnZlcixDT1wifSJ9LCJsb2NhdGlvbnMiOlt7InN0cmVldCI6IjgyMCAxNnRoIFN0IE1hbGwiLCJhZG1pbkFyZWE2IjoiQ2VudHJhbCBCdXNpbmVzcyBEaXN0cmljdCIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkRlbnZlciIsImFkbWluQXJlYTVUeXBlIjoiQ2l0eSIsImFkbWluQXJlYTQiOiJEZW52ZXIiLCJhZG1pbkFyZWE0VHlwZSI6IkNvdW50eSIsImFkbWluQXJlYTMiOiJDTyIsImFkbWluQXJlYTNUeXBlIjoiU3RhdGUiLCJhZG1pbkFyZWExIjoiVVMiLCJhZG1pbkFyZWExVHlwZSI6IkNvdW50cnkiLCJwb3N0YWxDb2RlIjoiODAyMDItMzIwMCIsImdlb2NvZGVRdWFsaXR5Q29kZSI6IlAxQUFBIiwiZ2VvY29kZVF1YWxpdHkiOiJQT0lOVCIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6IkwiLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0IjozOS43NDYsImxuZyI6LTEwNC45OTM3M30sImRpc3BsYXlMYXRMbmciOnsibGF0IjozOS43NDYxNCwibG5nIjotMTA0Ljk5MzkxfSwibWFwVXJsIjoiIn1dfV19
+  recorded_at: Tue, 13 Jun 2023 18:55:24 GMT
+recorded_with: VCR 6.1.0

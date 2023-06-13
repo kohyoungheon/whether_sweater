@@ -7,6 +7,10 @@ class WeatherFacade
     json = service.get_forecast(@params)
   end
 
+  def specific_forecast(travel_time)
+    json = service.get_specific_forecast(@params, travel_time)
+  end
+
   private 
 
   def service

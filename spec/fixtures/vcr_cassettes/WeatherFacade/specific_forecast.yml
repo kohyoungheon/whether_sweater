@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/forecast.json?dt=2023-06-13&hour=13&key=DONT_SHARE_MY_WEATHER_SECRET_KEY&q=39.74001,-104.99202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.6
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 13 Jun 2023 18:55:25 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1070
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cache-Control:
+      - public, max-age=180
+      Cdn-Proxyver:
+      - '1.03'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 06/13/2023 18:55:25
+      Cdn-Edgestorageid:
+      - '941'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - b3d5672cd41a94176830450e6673d4c0
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Denver","region":"Colorado","country":"United
+        States of America","lat":39.74,"lon":-104.99,"tz_id":"America/Denver","localtime_epoch":1686682525,"localtime":"2023-06-13
+        12:55"},"current":{"last_updated_epoch":1686681900,"last_updated":"2023-06-13
+        12:45","temp_c":12.3,"temp_f":54.1,"is_day":1,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png","code":1009},"wind_mph":11.9,"wind_kph":19.1,"wind_degree":40,"wind_dir":"NE","pressure_mb":1018.0,"pressure_in":30.05,"precip_mm":1.1,"precip_in":0.04,"humidity":79,"cloud":100,"feelslike_c":12.4,"feelslike_f":54.2,"vis_km":16.0,"vis_miles":9.0,"uv":4.0,"gust_mph":4.3,"gust_kph":6.8},"forecast":{"forecastday":[{"date":"2023-06-13","date_epoch":1686614400,"day":{"maxtemp_c":18.2,"maxtemp_f":64.8,"mintemp_c":11.1,"mintemp_f":52.0,"avgtemp_c":14.1,"avgtemp_f":57.5,"maxwind_mph":9.2,"maxwind_kph":14.8,"totalprecip_mm":4.4,"totalprecip_in":0.17,"totalsnow_cm":0.0,"avgvis_km":9.8,"avgvis_miles":6.0,"avghumidity":71.0,"daily_will_it_rain":1,"daily_chance_of_rain":86,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":3.0},"astro":{"sunrise":"05:32
+        AM","sunset":"08:29 PM","moonrise":"02:37 AM","moonset":"04:12 PM","moon_phase":"Waning
+        Crescent","moon_illumination":"27","is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1686682800,"time":"2023-06-13
+        13:00","temp_c":15.9,"temp_f":60.6,"is_day":1,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"wind_mph":4.7,"wind_kph":7.6,"wind_degree":34,"wind_dir":"NE","pressure_mb":1011.0,"pressure_in":29.86,"precip_mm":0.0,"precip_in":0.0,"humidity":60,"cloud":50,"feelslike_c":15.9,"feelslike_f":60.6,"windchill_c":15.9,"windchill_f":60.6,"heatindex_c":15.9,"heatindex_f":60.6,"dewpoint_c":8.1,"dewpoint_f":46.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":5.4,"gust_kph":8.6,"uv":5.0}]}]}}'
+  recorded_at: Tue, 13 Jun 2023 18:55:25 GMT
+recorded_with: VCR 6.1.0
